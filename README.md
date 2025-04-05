@@ -103,19 +103,19 @@ docker images
 Now, start a container from your image:
 
 ```
-docker run -d -p 80:80 --name webpage ubuntu-webpage
+docker run -d -p 85:80 --name webpage ubuntu-webpage
 ```
 - -d: Detached mode (runs in the background).
 
-- -p 80:80: Maps port 80 of the container to port 80 on your host.
+- -p 85:80: Maps port 80 of the container to port 85 on your host.
 
 - --name webpage: Names the container webpage.
 
 - ubuntu-webpage: This is the name of the image we just built.
 
-<img width="1620" alt="Screenshot 2025-04-05 at 13 10 15" src="https://github.com/user-attachments/assets/5dde0357-c87f-4a48-aea0-dd3a44ed6356" />
 
-<img width="1672" alt="Screenshot 2025-04-05 at 13 11 29" src="https://github.com/user-attachments/assets/d4d281c0-b3aa-4bfd-aeb9-ee4d14193113" />
+<img width="1379" alt="Screenshot 2025-04-05 at 13 20 25" src="https://github.com/user-attachments/assets/c945bff3-9469-4177-9a2e-0f09ea9670a9" />
+
 
 
 ## Access the Web Page
@@ -126,3 +126,5 @@ Make sure Docker Engine is running, then:
 2. Go to: http://localhost:80
 
 3. You should see your landing page served by Apache.
+
+<img width="1644" alt="Screenshot 2025-04-05 at 13 18 55" src="https://github.com/user-attachments/assets/5b660fee-c437-4281-83ad-aafc5be2ab4b" />
