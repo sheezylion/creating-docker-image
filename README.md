@@ -128,3 +128,24 @@ Make sure Docker Engine is running, then:
 3. You should see your landing page served by Apache.
 
 <img width="1644" alt="Screenshot 2025-04-05 at 13 18 55" src="https://github.com/user-attachments/assets/5b660fee-c437-4281-83ad-aafc5be2ab4b" />
+
+## Clean Up
+To stop and remove the container and image:
+
+```
+docker stop webpage
+docker rm webpage
+docker rmi ubuntu-webpage
+```
+
+<img width="1018" alt="Screenshot 2025-04-05 at 13 24 23" src="https://github.com/user-attachments/assets/2c279cb5-b82c-4b13-9483-995c063a794b" />
+
+## Summary
+- We built a Docker image based on Ubuntu.
+
+- Installed Apache2 and served a static index.html.
+
+- Ran the container and accessed it via our browser.
+
+- This setup simulates deploying a lightweight web app using Docker and Apache.
+
