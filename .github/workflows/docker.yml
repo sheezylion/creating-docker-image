@@ -31,8 +31,8 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: docker
-          # No need for file: since it will default to Dockerfile
+          context: . # This should point to the root of your repo
+          file: ./docker/Dockerfile # Ensure it's the correct path to the Dockerfile
           push: true
           tags: |
             sheezylion/docker-static-image:latest
