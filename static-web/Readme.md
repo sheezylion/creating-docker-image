@@ -116,7 +116,7 @@ build-and-push:
 
 - Click “Create New App”
 
-<img src="images/Screenshot 2025-05-02 at 13.56.51.png">
+<img src="images/Screenshot 2025-05-02 at 14.13.34.png">
 
 - Choose “From scratch”, give it a name (e.g. GitHub Notifications) and choose your Slack workspace
   <img src="images/Screenshot 2025-05-02 at 14.17.06.png">
