@@ -32,7 +32,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: docker
-          file: docker/dockerfile
+          # No need for file: since it will default to Dockerfile
           push: true
           tags: |
             sheezylion/docker-static-image:latest
