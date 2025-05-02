@@ -107,7 +107,7 @@ docker run -d -p 85:80 --name webpage ubuntu-webpage
 ```
 - -d: Detached mode (runs in the background).
 
-- -p 85:80: Maps port 80 of the container to port 85 on your host.
+- -p 85:80: Maps port 85 of the container to port 80 on your host.
 
 - --name webpage: Names the container webpage.
 
